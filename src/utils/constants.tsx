@@ -70,7 +70,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/87CEEB/FFFFFF?text=Newborn+Mini', // Placeholder image for newborn mini
+                imageSrc: 'https://place-hold.it/500x625/87CEEB/FFFFFF', // Placeholder image for newborn mini
                 price: '300 $',
                 details: [
                     '- 1 hour in-studio session',
@@ -84,7 +84,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/B0E0E6/FFFFFF?text=Newborn+Classic', // Placeholder image for newborn classic
+                imageSrc: 'https://place-hold.it/500x625/B0E0E6/FFFFFF',
                 price: '450 $',
                 details: [
                     '- Up to 2-3 hours in-studio session',
@@ -99,7 +99,7 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/ADD8E6/FFFFFF?text=Newborn+Premium', // Placeholder image for newborn premium
+                imageSrc: 'https://place-hold.it/500x625/ADD8E6/FFFFFF',
                 price: '700 $', // Removed 'from'
                 details: [
                     '- Up to 3-4 hours relaxed in-studio session',
@@ -147,7 +147,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/FFDAB9/000000?text=Cake+Smash+Mini', // Placeholder image for cake smash mini
+                imageSrc: 'https://place-hold.it/500x625/FFDAB9/000000',
                 price: '300 $',
                 details: [
                     '- 60 minute in-studio session',
@@ -161,7 +161,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/FFDDC1/000000?text=Cake+Smash+Classic', // Placeholder image for cake smash classic
+                imageSrc: 'https://place-hold.it/500x625/FFDDC1/000000',
                 price: '450 $',
                 details: [
                     '- Up to 90 minute in-studio session',
@@ -176,7 +176,7 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/FFE4B5/000000?text=Cake+Smash+Premium', // Placeholder image for cake smash premium
+                imageSrc: 'https://place-hold.it/500x625/FFE4B5/000000',
                 price: '700 $', // Removed 'from'
                 details: [
                     '- Up to 2 hour bespoke in-studio session',
@@ -224,7 +224,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/BDB76B/FFFFFF?text=Family+Mini', // Placeholder image for family mini
+                imageSrc: 'https://place-hold.it/500x625/BDB76B/FFFFFF',
                 price: '300 $',
                 details: [
                     '- 45 minute outdoor session at pre-determined location',
@@ -238,7 +238,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/DAA520/FFFFFF?text=Family+Classic', // Placeholder image for family classic
+                imageSrc: 'https://place-hold.it/500x625/DAA520/FFFFFF',
                 price: '450 $',
                 details: [
                     '- 60-90 minute outdoor or in-home session',
@@ -253,7 +253,7 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/FFD700/000000?text=Family+Premium', // Placeholder image for family premium
+                imageSrc: 'https://place-hold.it/500x625/FFD700/000000',
                 price: '700 $', // Removed 'from'
                 details: [
                     '- Up to 2 hours at multiple nearby locations (outdoor/in-home/studio)',
@@ -301,7 +301,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/B0E0E6/000000?text=Maternity+Mini', // Placeholder image for maternity mini
+                imageSrc: 'https://place-hold.it/500x625/B0E0E6/000000',
                 price: '300 $',
                 details: [
                     '- 45 minute session (in-studio or single outdoor location)',
@@ -315,7 +315,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/87CEFA/000000?text=Maternity+Classic', // Placeholder image for maternity classic
+                imageSrc: 'https://place-hold.it/500x625/87CEFA/000000',
                 price: '450 $',
                 details: [
                     '- 60-90 minute session (in-studio or outdoor location)',
@@ -330,7 +330,7 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/6495ED/000000?text=Maternity+Premium', // Placeholder image for maternity premium
+                imageSrc: 'https://place-hold.it/500x625/6495ED/000000',
                 price: '700 $', // Removed 'from'
                 details: [
                     '- Up to 2 hours comprehensive session (multiple locations/looks)',

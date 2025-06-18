@@ -20,6 +20,7 @@ const satisfy = Satisfy({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: "Ekaterina Ferrante | Create Timeless Memories Today",
   description: "Professional newborn photography in New York City by Ekaterina Ferrante. Capture precious moments with expert photoshoots tailored for families.",
     openGraph: {
