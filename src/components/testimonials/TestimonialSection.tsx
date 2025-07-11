@@ -41,9 +41,6 @@ export default function TestimonialSection({ testimonial }: TestimonialSectionPr
                         <p className="text-sm font-normal text-gray-600 uppercase tracking-widest mt-6">
                             {testimonial.author}
                         </p>
-                        <p className="text-xs font-light text-gray-500">
-                            ({testimonial.date})
-                        </p>
                     </div>
                 </div>
             </div>

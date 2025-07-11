@@ -7,7 +7,7 @@ export const socialLinks = [
     { name: 'Pinterest', href: 'https://www.pinterest.com/whalelovephoto/', icon: FaPinterestP },
 ];
 
-export const phoneNumber = '+1 347-560-3111';
+export const phoneNumber = '+1 929-259-4187';
 export const emailAddress = 'whalelovephoto@gmail.com';
 
 interface MenuItem {
@@ -39,25 +39,25 @@ export const workItems = [
     {
         id: 1,
         name: 'Newborn',
-        image: 'https://place-hold.it/500x700', // Placeholder image path
+        image: '/images/newborn.jpg',
         link: '/price/newborn',
     },
     {
         id: 2,
         name: 'Cake Smash',
-        image: 'https://place-hold.it/500x700', // Placeholder image path
+        image: '/images/cake-smash.jpg',
         link: '/price/cake-smash',
     },
     {
         id: 3,
         name: 'Family',
-        image: 'https://place-hold.it/500x700', // Placeholder image path
+        image: '/images/family.jpg',
         link: '/price/family',
     },
     {
         id: 4,
         name: 'Maternity',
-        image: 'https://place-hold.it/500x700', // Placeholder image path
+        image: '/images/maternity.jpg',
         link: '/price/maternity',
     },
 ];
@@ -65,78 +65,74 @@ export const workItems = [
 export const pricingPlans = {
     newborn: {
         sectionName: 'Newborn Photography Sessions',
-        description: 'Capture the fleeting moments of your little one\'s earliest days with our professional newborn photography sessions. Specializing in safe, artistic, and gentle newborn portraits, we create timeless memories for your family.',
+        description: 'Newborn photography is not just about taking pictures — it’s about capturing the quiet magic of new life, the deep love of family, and the fleeting moments you’ll want to remember forever. These are more than images — they’re timeless keepsakes of your baby’s very first days.',
         plans: [
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/87CEEB/FFFFFF', // Placeholder image for newborn mini
+                imageSrc: '/images/newborn-mini.jpeg',
                 price: '300 $',
                 details: [
-                    '- 1 hour in-studio session',
-                    '- Focus on wrapped poses',
-                    '- 10 professionally retouched digital images',
-                    '- Private online gallery for selection',
-                    '- Print release for personal use',
-                    '- Best for babies 5-14 days old',
+                    '- Photo session for 1 hour',
+                    '- Helping with posing during the shoot',
+                    '- 15 photos with enhanced correction (skin, details, etc.)',
+                    '- All material from the session',
+                    '- Delivered within 1-3 days (150+ files)',
                 ],
             },
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/B0E0E6/FFFFFF',
+                imageSrc: '/images/newborn2.jpeg',
                 price: '450 $',
                 details: [
-                    '- Up to 2-3 hours in-studio session',
-                    '- Variety of posed shots & prop setups',
-                    '- 20 professionally retouched digital images',
-                    '- Includes parent & sibling poses',
-                    '- Private online gallery for selection & sharing',
-                    '- Full print release',
-                    '- Pre-session consultation for styling & props',
+                    '- Photo session up to 2 hours',
+                    '- Helping with posing during the shoot',
+                    '- Newborn Props: wrap, blanket',
+                    '- 25 photos with enhanced correction (skin, details, etc.)',
+                    '- All material from the session',
+                    '- Delivered within 1-3 days (200+ files)',
                 ],
             },
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/ADD8E6/FFFFFF',
-                price: '700 $', // Removed 'from'
+                imageSrc: '/images/newborn3.jpeg',
+                price: '600 $',
                 details: [
-                    '- Up to 3-4 hours relaxed in-studio session',
-                    '- Extensive collection of posed & candid shots',
-                    '- 30+ professionally retouched digital images',
-                    '- Includes all family members (parents, siblings, grandparents)',
-                    '- Access to client closet: wraps, outfits, props',
-                    '- Large private online gallery & custom USB drive',
-                    '- Fine art prints or album credit included',
-                    '- Detailed pre-session planning & styling guide',
+                    '- Photo session for up to 3 hours',
+                    '- Helping with posing during the shoot',
+                    '- Newborn Props: wrap, blanket, and posing bean bag for safe and cozy sessions',
+                    '- 35 photos with enhanced correction (skin, details, etc.)',
+                    '- All material from the session',
+                    '- Delivered within 1-3 days (typically 200+ files)',
                 ],
             },
         ],
         faq: [
             {
                 question: "When is the best time to book a newborn photography session?",
-                answer: "It's highly recommended to book your newborn session during your second or early third trimester to ensure availability. The ideal time for the photoshoot itself is within the first 5-14 days after birth, when your baby is still very sleepy and flexible for those adorable curly poses.",
+                answer: "The best time to reserve your newborn session is during your second or early third trimester to ensure availability. I usually photograph newborns within the first 5–14 days after birth, when babies are still very sleepy and naturally curled. That said, I’m flexible — I focus on connection more than perfect posing, and I believe beautiful moments can be captured at any stage.",
             },
             {
                 question: "Do you provide props, outfits, and wraps for the newborn sessions?",
-                answer: "Yes, absolutely! Our studio is fully stocked with a wide array of high-quality, sanitized props, wraps, headbands, bonnets, and tiny outfits. You don't need to bring anything unless there's a sentimental item you wish to include.",
+                answer: "Yes — while I focus mostly on natural, candid moments, I do have a small curated selection of soft, neutral wraps and a few simple accessories if you’d like them. But you’re never required to use anything — we can keep it completely organic, using your baby’s own onesie or just cozy blankets at home. The goal is to keep it personal and true to you.",
             },
             {
                 question: "Can parents and siblings be included in the newborn photos?",
-                answer: "We strongly encourage parents and siblings to participate! These early family moments are truly special. We prioritize family shots at the beginning of the session to ensure everyone is comfortable and happy.",
+                answer: "Absolutely — I love photographing those first connections between baby and family. These early days are full of emotion, and your bond is what makes the images truly special. I often begin with family shots to help everyone settle in and feel at ease, especially little ones.",
             },
             {
                 question: "How long does a typical newborn photoshoot last?",
-                answer: "Newborn sessions are unhurried and can last between 2 to 4 hours. This allows ample time for feeding, changing, soothing, and ensuring your baby is comfortable and relaxed throughout the session.",
+                answer: "My sessions are calm and unrushed. A typical session lasts around 1 to 3 hours, allowing time for feeding, cuddling, and any breaks your baby may need. I follow your baby’s pace — the most meaningful photos come when everyone is relaxed and present.",
             },
             {
                 question: "What if my baby is fussy or doesn't want to pose during the session?",
-                answer: "It's completely normal for babies to be unpredictable! I'm experienced in newborn posing and soothing techniques. We'll follow your baby's lead, take breaks as needed, and ensure a calm and patient environment. Your baby's comfort and safety are our top priority.",
+                answer: "That’s completely okay! I don’t rely on rigid posing — I work with your baby just as they are. If they need to feed, be held, or take a break, we go with the flow. I’ll gently guide the session using soothing techniques, but ultimately, I capture the real moments — even the imperfect ones are beautiful.",
             },
             {
                 question: "When will I receive my newborn photo gallery?",
-                answer: "Your private online proofing gallery will typically be ready for viewing within 7-10 business days after your session. Once you've made your selections, the final retouched images will be delivered within 2-3 weeks.",
+                answer: "You’ll receive a private online gallery for viewing about 1 - 3 business days after our session. Once you choose your favorite images, your fully edited, high-resolution photos will be delivered within ~1 week. Every image is hand-edited with care and love.",
             },
         ],
     },
@@ -147,13 +143,12 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/FFDAB9/000000',
+                imageSrc: '/images/cake-smash-mini.jpg',
                 price: '300 $',
                 details: [
-                    '- 60 minute in-studio session',
+                    '- 45 minutes photoshoot',
                     '- Simple backdrop setup (color of choice)',
                     '- 10 high-resolution retouched images',
-                    '- Includes cake smash & bubble bath splash',
                     '- Online gallery for selection',
                     '- Client provides the cake',
                 ],
@@ -161,13 +156,13 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/FFDDC1/000000',
+                imageSrc: '/images/cake-smash-classic.jpg',
                 price: '450 $',
                 details: [
-                    '- Up to 90 minute in-studio session',
-                    '- Custom themed backdrop & decorations',
-                    '- 20 high-resolution retouched images',
-                    '- Includes pre-smash portraits, cake smash & bubble bath',
+                    '- Up to 90 minute photoshoot',
+                    '- Backdrop & decorations',
+                    '- 25 high-resolution retouched images',
+                    '- Includes pre-smash portraits, cake smash photos and photos with parents',
                     '- Online gallery & print release',
                     '- Client provides the cake',
                     '- Outfit guidance',
@@ -176,16 +171,17 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/FFE4B5/000000',
-                price: '700 $', // Removed 'from'
+                imageSrc: '/images/cake-smash-premium.jpg',
+                price: '700 $',
                 details: [
-                    '- Up to 2 hour bespoke in-studio session',
+                    '- Up to 2,5 hours photoshoot',
                     '- Elaborate custom theme with premium props & decor',
-                    '- 30+ high-resolution retouched images',
+                    '- 35 high-resolution retouched images',
                     '- Pre-smash portraits, multiple cake smash angles & splash bath',
+                    '- Parents, siblings and other family members are Included in the photoshoot (optional)',
                     '- Online gallery, print release & custom USB',
                     '- Option to include custom cake (additional fee may apply)',
-                    '- Wardrobe consultation & access to client closet outfits',
+                    '- Wardrobe consultation',
                     '- Priority editing turnaround',
                 ],
             },
@@ -224,7 +220,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/BDB76B/FFFFFF',
+                imageSrc: '/images/family.jpg',
                 price: '300 $',
                 details: [
                     '- 45 minute outdoor session at pre-determined location',
@@ -238,7 +234,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/DAA520/FFFFFF',
+                imageSrc: '/images/family-classic.jpg',
                 price: '450 $',
                 details: [
                     '- 60-90 minute outdoor or in-home session',
@@ -253,8 +249,8 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/FFD700/000000',
-                price: '700 $', // Removed 'from'
+                imageSrc: '/images/family-premium.jpg',
+                price: '700 $',
                 details: [
                     '- Up to 2 hours at multiple nearby locations (outdoor/in-home/studio)',
                     '- Perfect for large or extended families (up to 10 people)',
@@ -290,7 +286,7 @@ export const pricingPlans = {
             },
             {
                 question: "When will we receive our final family photos?",
-                answer: "Your private online proofing gallery will be ready within 1-2 weeks for you to select your favorite images. Once your selections are made, the final retouched high-resolution digital images will be delivered within 3-4 weeks.",
+                answer: "Your private online proofing gallery will be ready within 1-3 days for you to select your favorite images. Once your selections are made, the final retouched high-resolution digital images will be delivered within 1 week.",
             },
         ],
     },
@@ -331,7 +327,7 @@ export const pricingPlans = {
                 id: 3,
                 name: 'Premium',
                 imageSrc: 'https://place-hold.it/500x625/6495ED/000000',
-                price: '700 $', // Removed 'from'
+                price: '700 $',
                 details: [
                     '- Up to 2 hours comprehensive session (multiple locations/looks)',
                     '- Includes partner, children & extended family poses',
@@ -380,61 +376,56 @@ export interface Testimonial {
     quote: string;
     body: string[];
     author: string;
-    date: string;
     imagePosition?: 'left' | 'right'; // Prop to control image position for this single testimonial
 }
 
 export const testimonialsData: Testimonial[] = [
     {
         id: 1,
-        imageSrc: 'https://place-hold.it/510x640', // Testimonial 1 image
-        quote: 'The photos of our wedding are just wow!',
+        imageSrc: '/images/testimonial1.jpg',
+        quote: 'Pure magic in every photo.',
         body: [
-            'Hello Ekaterina,',
-            'Thank you so much for the time, care, and dedication you put into capturing our wedding day. We are absolutely in love with the photos — they are everything we hoped for and more. Your incredible attention to detail and ability to capture genuine emotions made every shot come to life.',
-            'Choosing you as our photographer was the best decision we made, and we’re so grateful for how beautifully you preserved these precious memories for us. Our family and friends can’t stop talking about how stunning the photos are!',
-            'Thank you from the bottom of our hearts for your amazing work!',
+            'Ekaterina captured the most magical moments between me and my daughter during our outdoor photoshoot in New York. She made us feel so comfortable and at ease, and it truly felt like we were just having fun together while she gently guided us.',
+            'When I received the photos, I honestly teared up—they were full of light, love, and genuine emotion. I’ll treasure them forever.',
+            'Thank you for your talent and kindness, Ekaterina!',
         ],
-        author: 'Karolina & Artur',
-        date: 'August, 2022',
+        author: 'Malika T.',
         imagePosition: 'left',
     },
     {
         id: 2,
-        imageSrc: 'https://place-hold.it/510x640', // Testimonial 2 image
-        quote: 'We can’t thank you enough',
+        imageSrc: '/images/testimonial2.jpg',
+        quote: 'Memories we\'ll cherish forever.',
         body: [
-            'Ekaterina is an extraordinary professional! The photos from our wedding are absolutely stunning — simply wow! I have never met a photographer so devoted to her craft, meticulously perfecting every detail with such passion and care.',
-            'I stumbled across Ekaterina’s work by chance on Instagram, but the moment I saw her portfolio, I knew she was the one I wanted to capture our wedding day. She turned our vision into reality and exceeded every expectation we had.',
-            'We are incredibly thankful for her talent and dedication. Thank you, Ekaterina! Keep creating such beautiful magic!',
+            'Our newborn photoshoot with Ekaterina was such a beautiful experience. She came to our home and created such a calm and cozy atmosphere—it was like having a close friend visit. ',
+            'As new parents, we were nervous and tired, but she made the whole process so smooth and easy. The photos she delivered were beyond what we imagined: tender, emotional, and absolutely stunning.',
+            'We can’t thank you enough, Ekaterina!',
         ],
-        author: 'Francesca & Andrea',
-        date: 'September, 2023',
-        imagePosition: 'right', // This image is on the right
+        author: 'Samantha & Jake R.',
+        imagePosition: 'right',
     },
     {
         id: 3,
-        imageSrc: 'https://place-hold.it/510x640', // Testimonial 3 image
-        quote: 'She creatively turned every moment into pure magic',
+        imageSrc: '/images/testimonial3.jpg',
+        quote: 'Effortless, warm, and beautiful.',
         body: [
-            'We booked Ekaterina as our wedding photographer even before finalizing other details, and it was the best decision we made! From the moment I saw her portfolio, I knew her elegant, vibrant photography style was exactly what I had envisioned for our wedding.',
-            'Even when the weather wasn’t perfect, Ekaterina managed to turn every moment into a beautiful photo opportunity. Her creativity and attention to detail resulted in images that far exceeded anything we could have imagined. Our family and friends are in awe of how stunning our wedding photos are!',
-            'The love, emotion, and joy captured in every picture is truly special.',
-            'Thanks to Ekaterina, we now have beautiful, timeless memories that perfectly reflect the essence of our day. We are incredibly grateful for her talent and dedication. If you’re considering Ekaterina, don’t hesitate — she’s absolutely the best!',
+            'I will never forget the way Ekaterina captured me and my baby girl in those first few precious days. She was so gentle with my newborn, and so understanding of my emotions as a new mom.',
+            'The way she caught every tiny detail—from little fingers to sleepy smiles - melted my heart. These photos are a gift I will cherish forever.',
+            'Thank you, Ekaterina, for giving me this treasure.',
         ],
-        author: 'Kaitlin & Joseph',
-        date: 'September, 2023',
-        imagePosition: 'left', // This image is on the left
+        author: 'Julia M.',
+        imagePosition: 'left',
     },
     {
         id: 4,
-        imageSrc: 'https://place-hold.it/510x640', // Testimonial 4 image
-        quote: '... we’re so happy that we chose you to capture it',
+        imageSrc: '/images/testimonial4.jpg',
+        quote: 'Memories we\'ll cherish forever',
         body: [
-            'Outstanding work, Ekaterina! We can’t thank you enough for everything. You made us both feel so at ease throughout the entire process. Your attention to detail, genuine care at every step, and quick responses to our messages made everything so smooth. We can’t recommend you enough — you\'re truly amazing! Thank you for capturing our special day so beautifully!',
+            'Our in-home cake smash session with Ekaterina was an absolute dream! She was patient, playful, and so creative. My daughter had the time of her life smashing her cake while she captured every silly, sweet moment.',
+            'The colors, the laughter, the little expressions—everything came out picture-perfect. I’ve already printed and framed several of the photos.',
+            'Thank you for capturing our girl\'s first birthday so beautifully, Ekaterina!'
         ],
-        author: 'Alicja & Piotr',
-        date: 'June, 2024',
-        imagePosition: 'right', // This image is on the right
+        author: 'Lina S.',
+        imagePosition: 'right',
     },
 ];

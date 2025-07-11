@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { pricingPlans, instagramLink } from "@/utils/constants";
+import { pricingPlans } from "@/utils/constants";
 
 type PricingPlanKeys = keyof typeof pricingPlans;
 
@@ -32,7 +32,8 @@ export default function PriceOfferings({ pricingPlanKey }: PriceOfferingsProps) 
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {currentOffering.plans.map((plan) => (
-                        <div key={plan.id} className="flex flex-col items-center bg-white rounded-lg shadow-md overflow-hidden">
+                        <div key={plan.id}
+                             className="flex flex-col items-center bg-white rounded-lg shadow-md overflow-hidden">
                             {/* Image Section */}
                             <div className="relative w-full h-80 overflow-hidden">
                                 <Image
@@ -40,13 +41,14 @@ export default function PriceOfferings({ pricingPlanKey }: PriceOfferingsProps) 
                                     alt={`Pricing Plan ${plan.id}`}
                                     fill
                                     sizes="(max-width: 768px) 100vw, 33vw"
-                                    style={{ objectFit: 'cover' }}
+                                    style={{objectFit: 'cover'}}
                                     className="transition-transform duration-300 hover:scale-105"
                                 />
                             </div>
 
                             {/* Price and Details Section */}
-                            <div className="w-full text-center py-6 px-4 bg-gray-50 flex flex-col items-center flex-grow">
+                            <div
+                                className="w-full text-center py-6 px-4 bg-gray-50 flex flex-col items-center flex-grow">
                                 <p className="text-3xl font-light text-gray-800 mb-4">{plan.name.toUpperCase()}</p>
                                 <p className="text-3xl font-light text-gray-800 mb-4">{plan.price}</p>
                                 {/* Changed width: removed max-w-[200px] */}
@@ -62,9 +64,7 @@ export default function PriceOfferings({ pricingPlanKey }: PriceOfferingsProps) 
                             {/* Book Now Button */}
                             <div className="w-full p-4">
                                 <Link
-                                    href={instagramLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    href="/contact"
                                     className="block w-full bg-black text-white text-center py-4 rounded-full uppercase text-sm font-normal tracking-widest
                                    hover:bg-gray-700 transition-colors duration-300"
                                 >
@@ -73,6 +73,10 @@ export default function PriceOfferings({ pricingPlanKey }: PriceOfferingsProps) 
                             </div>
                         </div>
                     ))}
+                </div>
+                <div className="flex w-full items-center text-gray-700 bg-white py-2 text-center overflow-hidden">
+                    **PRICES DO NOT INCLUDE STUDIO BOOKINGS AND ANY APPLICABL﻿E TRAVEL FEES (IF APPLIED). (MOST OF THE
+                    SESSIONS HAPPENS IN HOME OR OUTDOOR.)
                 </div>
             </div>
         </section>

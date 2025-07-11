@@ -49,7 +49,7 @@ export default function MainMenu({ isMobile = false, closeMenu }: MainMenuProps)
                                 </div>
                             ) : (
                                 <Link href={item.href} className="block font-normal text-gray-700 hover:text-gray-900 text-lg py-2" onClick={handleLinkClick}>
-                                    {item.name}
+                                    {item.name.toUpperCase()}
                                 </Link>
                             )}
                         </li>

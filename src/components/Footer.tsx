@@ -20,7 +20,7 @@ export default function Footer() {
                         Ekaterina Ferrante {/* Changed name as per request */}
                     </h3>
                     <p className="text-sm font-light text-gray-600 mb-1">professional photographer</p>
-                    <p className="text-sm font-light text-gray-600 mb-2">Capture precious moments with expert</p>
+                    <p className="text-sm font-light text-gray-600 mb-2">Capturing Tiny moments with BIG love</p>
                     <a href={`mailto:${emailAddress}`} className="text-base text-gray-700 hover:text-gray-900 font-normal">
                         {emailAddress}
                     </a>
@@ -44,6 +44,7 @@ export default function Footer() {
             {/* Copyright text at the very bottom */}
             <div className="mt-10 pt-6 border-t border-gray-300 text-center text-xs text-gray-500">
                 <p>&copy; {currentYear} Ekaterina Ferrante. All rights reserved.</p>
+                <p>Stock imagery used for illustrative purposes while portfolio is under development.</p>
             </div>
         </footer>
     );
