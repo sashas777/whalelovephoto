@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
             ? 'http://localhost:3015'
             : 'http://localhost:3000',
     },
+    output: 'standalone',
 };
 
 export default nextConfig;
