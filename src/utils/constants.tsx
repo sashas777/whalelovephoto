@@ -31,6 +31,7 @@ export const menuItems: MenuItem[] = [
             { name: 'Maternity', href: '/price/maternity' },
         ],
     },
+    { name: 'portfolio', href: 'https://whalelovephoto.pixieset.com/' },
     { name: 'testimonials', href: '/testimonials' },
     { name: 'contact', href: '/contact' },
 ];
@@ -98,7 +99,7 @@ export const pricingPlans = {
                 id: 3,
                 name: 'Premium',
                 imageSrc: '/images/newborn3.jpeg',
-                price: '600 $',
+                price: '700 $',
                 details: [
                     '- Photo session for up to 3 hours',
                     '- Helping with posing during the shoot',
@@ -239,7 +240,7 @@ export const pricingPlans = {
                 details: [
                     '- 60-90 minute outdoor or in-home session',
                     '- Suitable for families up to 6 people',
-                    '- 20 professionally retouched digital images',
+                    '- 25 professionally retouched digital images',
                     '- Mix of posed portraits & candid lifestyle shots',
                     '- Online gallery for selection & sharing',
                     '- Full print release',
@@ -297,7 +298,7 @@ export const pricingPlans = {
             {
                 id: 1,
                 name: 'Mini',
-                imageSrc: 'https://place-hold.it/500x625/B0E0E6/000000',
+                imageSrc: '/images/maternity1.jpg',
                 price: '300 $',
                 details: [
                     '- 45 minute session (in-studio or single outdoor location)',
@@ -311,7 +312,7 @@ export const pricingPlans = {
             {
                 id: 2,
                 name: 'Classic',
-                imageSrc: 'https://place-hold.it/500x625/87CEFA/000000',
+                imageSrc: '/images/maternity2.jpg',
                 price: '450 $',
                 details: [
                     '- 60-90 minute session (in-studio or outdoor location)',
@@ -326,7 +327,7 @@ export const pricingPlans = {
             {
                 id: 3,
                 name: 'Premium',
-                imageSrc: 'https://place-hold.it/500x625/6495ED/000000',
+                imageSrc: '/images/maternity3.jpg',
                 price: '700 $',
                 details: [
                     '- Up to 2 hours comprehensive session (multiple locations/looks)',
