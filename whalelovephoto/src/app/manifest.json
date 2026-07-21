@@ -1,0 +1,21 @@
+{
+  "name": "Ekaterina Ferrante | Create Timeless Memories Today",
+  "short_name": "Ekaterina Ferrante",
+  "description": "Professional newborn photography in New York City by Ekaterina Ferrante. Capture precious moments with expert photoshoots tailored for families.",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
