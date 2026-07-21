@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   nextjs-app:
     image: registry.superstar.sashas.cc/katya-nextjs-app:latest
@@ -7,9 +9,23 @@ services:
       NODE_ENV: production
       PORT: 3000
     restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.whalelovephoto.rule=Host(`whalelovephoto.com`) || Host(`www.whalelovephoto.com`)"
+      - "traefik.http.routers.whalelovephoto.entrypoints=websecure"
+      - "traefik.http.routers.whalelovephoto.tls=true"
+      - "traefik.http.routers.whalelovephoto.tls.certresolver=letsencrypt"
+      - "traefik.http.services.whalelovephoto.loadbalancer.server.port=3000"
+      - "traefik.http.routers.whalelovephoto.middlewares=security-headers@file"
     logging:
       driver: "json-file"
       options:
         max-size: "10m"
         max-file: "3"
+    networks:
+      - web-network
 
+networks:
+  web-network:
+    name: web-network
+    external: true
