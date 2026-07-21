@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "name": "katya"
+        }
+    ],
+    "remoteAuthority": "wsl+ubuntu-20.04",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "agy.project.name": "katya",
+        "antigravity.agent.shellArgs": [
+            "-u",
+            "sashas"
+        ],
+        "terminal.integrated.env.linux": {
+            "AGY_BRAIN_PATH": "/home/sashas/.antigravity/brain",
+            "HOME": "/home/sashas",
+            "USER": "sashas",
+            "ANTIGRAVITY_WORKSPACE": "/home/sashas/katya"
+        },
+        "antigravity.terminal.shellArgs": [
+            "--login"
+        ],
+        "antigravity.agent.allowedCommands": [
+            "pnpm",
+            "npm",
+            "docker",
+            "ls"
+        ],
+        "antigravity.agent.workspaceControl": "unrestricted",
+        "antigravity.security.restrictiveMode": false,
+        "python.terminal.activateEnvInSelectedTerminal": true,
+        "antigravity.agent.toolPermissions": {}
+    }
+}
